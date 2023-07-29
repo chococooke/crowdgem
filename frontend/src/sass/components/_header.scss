@@ -1,0 +1,41 @@
+.header {
+    padding: 12px;
+    background-color: #4169E1;
+
+    .add {
+        background-color: $color-primary-2;
+        color: #fff;
+    }
+
+    &__nav {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        color: white;
+
+        &-brand {
+            font-size: 32px;
+            text-shadow: 0 0 12px rgba($color: #000000, $alpha: 0.3);
+
+            &>a {
+                text-decoration: none;
+                color: white;
+            }
+        }
+
+        &-navbar {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            flex-wrap: wrap;
+
+            &>button {
+                margin: 0 12px;
+            }
+        }
+    }
+}

@@ -1,0 +1,99 @@
+.btn {
+    padding: 6px 20px;
+    border-radius: 4px;
+    // font-size: 20px;
+    border: none;
+    // box-shadow: 0 6px 8px rgba($color: #000000, $alpha: 0.2);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    &:hover {
+        opacity: 0.98;
+        transform: translateY(-1px);
+    }
+
+    &-create {
+        position: fixed;
+        bottom: 10vh;
+        right: 3vw;
+        // background-color: $color-primary-2;
+        background-color: #4169E1;
+        box-shadow: 2px 2px 12px rgba($color: #000000, $alpha: 0.3);
+        font-size: 20px;
+        color: white;
+        font-weight: bolder;
+        padding: 8px 20px;
+
+        &:hover {
+            background-color: #3a5dc6;
+        }
+
+
+        &>svg {
+            margin-right: 6px;
+        }
+    }
+
+
+    &-nav {
+        background-color: $color-primary-2;
+        color: #333;
+        font-weight: 700;
+        font-size: 18px;
+        background-color: white;
+        box-shadow: 0 2px 8px rgba(#000, $alpha: 0.1);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &>span {
+            display: inline-block;
+            padding: 0 12px;
+        }
+    }
+
+    &-link {
+        background-color: #4169E1;
+        color: white;
+    }
+
+    &-add {
+        background-color: $color-primary-2;
+        color: #333;
+        font-weight: 700;
+        font-size: 18px;
+        background-color: white;
+        box-shadow: 0 2px 8px rgba(#000, $alpha: 0.1);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    &-nav {
+        padding: 6px 8px;
+    }
+}
+
+.tabs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+
+    &>.btn {
+        font-size: 20px;
+        margin-right: 6px;
+    }
+
+    &-active {
+        border: 1px solid #4169E1;
+        background-color: #4169E1;
+        color: white;
+    }
+}

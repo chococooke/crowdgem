@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,700;0,900;1,500&family=Poppins:wght@200;400;600&display=swap');
+
+html {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.home__header {
+    background-color: #4169E1;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.home__hero-section {
+    background-color: #FFFFFF;
+    text-align: center;
+    height: 100vh;
+    padding: 240px;
+}
+
+.home__hero-section h1 {
+    font-size: 3rem;
+}
+
+.home__header>h1>span {
+    color: #ffd700;
+}
+
+.home__hero-section p {
+    font-size: 1.2rem;
+    color: #555555;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.cta-button {
+    background-color: #00C853;
+    color: #FFFFFF;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.home__features-section {
+    background-color: #F8F8F8;
+    text-align: center;
+    padding: 4rem 0;
+    height: 80vh;
+    padding: 150px;
+}
+
+.home__features-section h2 {
+    font-size: 2rem;
+}
+
+.home__features-section p {
+    font-size: 1.1rem;
+    color: #555555;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.home__features-section-list {
+    width: 40%;
+    margin: 40px auto;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.home__feature {
+    padding: 6px 20px;
+    margin: 6px;
+    border: 1px solid #4169E1;
+    border-radius: 20px;
+
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+
+    &>span {
+        &>svg {
+            opacity: 0.6;
+            height: 20px;
+            margin-right: 8px;
+        }
+    }
+}
+
+.home__footer {
+    background-color: #4169E1;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 1rem;
+}

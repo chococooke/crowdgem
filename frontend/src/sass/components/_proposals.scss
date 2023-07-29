@@ -1,0 +1,19 @@
+.proposals {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-items: flex-start;
+    justify-content: flex-start;
+    margin: 12px auto;
+    width: 98%;
+    height: 70vh;
+    border: 2px solid rgba($color-primary-1, $alpha: 0.4);
+    border-radius: 6px;
+    overflow-y: scroll;
+
+    &::-webkit-scrollbar-button {
+        display: none;
+    }
+}

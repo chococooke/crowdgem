@@ -1,0 +1,52 @@
+.proposalInfo {
+    height: 80vh;
+    // border: 1px solid black;
+    margin: 12px auto;
+    width: 98%;
+
+    &__head,
+    &__body,
+    &__form {
+        padding: 12px;
+    }
+
+    &__head {
+        height: 40%;
+
+        &>h1,
+        &>h2,
+        &-sub>p {
+            &>span {
+                opacity: 0.5;
+            }
+        }
+
+        &-sub {
+            padding: 20px 0;
+        }
+    }
+
+    &__timer {
+        padding: 12px;
+        font: 20px;
+    }
+
+    &__body {
+        height: 10%;
+        width: 100%;
+        padding: 12px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+
+        &>* {
+            margin: 12px;
+        }
+
+        &>button {
+            width: 10%;
+            font-size: 18px;
+        }
+    }
+}
